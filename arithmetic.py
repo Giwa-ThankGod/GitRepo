@@ -1,5 +1,5 @@
-def additon():
-    pass
+def additon(*args, **kwargs):
+    return sum(args)
 
 def subtraction():
     pass

@@ -7,7 +7,9 @@ def subtraction(*args, **kwargs):
     return args[0]
 
 def multiplication():
-    pass
+    for i in args:
+        args[0] -= i
+    return args[0]
 
 def division():
     pass
